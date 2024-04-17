@@ -43,7 +43,57 @@
             <p class="section_text_p1">Hello, I'm</p>
             <h1 class="title">Austin de Boer</h1>
             <p class="section_text_p2">Frontend Developer</p>
-            <div></div>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('/assets/resume.pdf')">Download Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='./#connect'">Let's Connect</button>
+            </div>
+            <div id="socials-container">
+                <img
+                    src="./assets/socials/linkedin-plain.svg"
+                    alt="My LinkedIn profile"
+                    class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/austindeboer/'"
+                />
+                <img
+                    src="./assets/socials/github-original.svg"
+                    alt="My Github profile"
+                    class="icon"
+                    onclick="location.href='https://github.com/roken47'"
+                />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img 
+                    src="./assets/about-pic.png" 
+                    alt="Profile picture" 
+                    class="about-pic" 
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <img
+                        src="./assets/experience.png"
+                        alt="experience icon"
+                        class="icon"
+                    />
+                    <h3>Experience</h3>
+                    <p>Nothing formal<br />Frontend Development</p>
+                </div>
+                <div class="details-container">
+                    <img
+                        src="./assets/education.png"
+                        alt="education icon"
+                        class="icon"
+                    />
+                    <h3>Education</h3>
+                    <p>Certificate<br />Frontend Development</p>
+                </div>
+            </div>
         </div>
     </section>
     <script src="scripts/script.js"></script>

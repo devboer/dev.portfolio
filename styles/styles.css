@@ -255,3 +255,17 @@ section {
 .btn-container {
     gap: 1rem;
 }
+
+/* Continue from youtube video here */
+
+/* HOMELAB APP-BOXES */
+#admin{
+    display: flex;
+    flex-direction: column;
+}
+.app-box {
+    background: rgb(181, 181, 181);
+    border: rgb(0, 0, 0) 0.1rem groove;
+    padding: 1rem;
+
+}

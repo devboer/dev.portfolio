@@ -143,6 +143,9 @@ a:hover {
     transform: none;
 }
 
+#ts-link {
+    display: none;
+}
 /* SECTIONS */
 section {
     padding-top: 4vh;

@@ -6,7 +6,7 @@ function toggleMenu() {
 }
     async function checkTailscale() {
       try {
-        let response = await fetch("https://go.int.devboer.com", {mode: "no-cors"});
+        let response = await fetch("opnsense-box.tailfa891.ts.net", {mode: "no-cors"});
         // If no error, we’re on Tailscale
         document.getElementById("ts-link").style.display = "inline";
       } catch (e) {
